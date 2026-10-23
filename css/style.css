@@ -1,6 +1,7 @@
 body {
   background-color: white;
   margin:0;
+  padding:0;
 }
 
 a {
@@ -41,12 +42,19 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.content a {
+  width: 100%;
 }
 .imgpanigale {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
+  height: auto;""
 }
 
 .footer {
